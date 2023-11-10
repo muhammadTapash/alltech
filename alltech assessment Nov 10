@@ -1,0 +1,33 @@
+1.	What is Java Virtual Machine (JVM)? 
+The primary function of Java virtual machine or JVM is to run java code in any machines. It is a key component that enable platform independent environment, It follows the rule write once, use anywhere. It rules interpret java bytecode using a run time application for java application
+2.	How aggregation and composition are different concepts? 
+Aggregation imply the associator between objects. It describe Has-a “relationship , for example parent and child class, whereas composition mean one object is contained in another object. It is also called ownership relationship. It is a special type of aggregation where it allows wrapping a simple objects or data types into a single unit
+
+3.	  How will you implement method overloading in Java? 
+Method overloading can be achieved by the following:
+By changing the number of parameters in a method.
+By changing the order of parameters in a method.
+By using different data types for parameters.
+4.	 What is the difference between method overloading and method overriding in Java? 
+Both are example of polymorphism. Method overriding is related to implement a abstract method where as  in method overloading we can create multiple method with same name .  In overriding method signature must same in implementation class. However, in overloading method different parameter of same name is used 
+5.	 What is Abstraction in Object Oriented programming? 
+A abstraction is the one of three principle of OOP. Here we hide all but relevant data that is useful for user. An example of abstract method is sending a message over phone. User only see the message hiding the functional /implementation process of data.
+6.	 What is Serialization and Deserialization conceptually? 
+Serialization is the process of converting the state of an object into a form that can be persisted or transported. The complement of serialization is deserialization, which converts a stream into an object.
+
+
+
+7.	  What is Garbage Collection in Java? 
+It is a part of automatic memory management . In Java, the programmer need not care for all those objects which are no longer in use. Garbage collector destroys these objects. The main objective of Garbage Collector is to free heap memory by destroying unreachable objects.
+
+
+8.	 Why do we use finalize() method in Java? 
+It is a method of class object. It perform cleanup activity before destroy the object from memory. It is called by garbage collector. finalize() method call by any object before it deletion. It is useful method to clean up memory space
+
+9.	 What are the advantages of Multithreading? 
+
+In multithreading we can run many parts of a program at the same time. When we work on Word , we can type while save function continuously work . It saves our time using least CPU time. As a result, multithreading increases CPU utilization through multitasking.
+
+10.	What are the different types of Dependency Injection in Spring Framework? 
+Dependency injection is a process whereby objects define their dependencies. Constructor based dI is performed by container that invoke a constructor with different argument. Whereas in setter injection we call setter method in container.
+
